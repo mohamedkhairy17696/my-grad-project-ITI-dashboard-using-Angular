@@ -19,10 +19,10 @@ export class OrdersService {
   }
 
   deleteOrder(id: any) {
-    return this.http.delete<any>(this.baseUrl + '/orders/dashboard' + id);
+    return this.http.delete<any>(this.baseUrl + '/orders/dashboard/' + id);
   }
 
   updateOrder(data: any, id: number) {
-    return this.http.put<any>(this.baseUrl + '/orders/dashboard' + id, data);
+    return this.http.put<any>(this.baseUrl + '/orders/dashboard/' + id, data);
   }
 }

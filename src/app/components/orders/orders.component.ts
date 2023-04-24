@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { OrdersService } from 'src/app/services/orders.service';
 
@@ -7,7 +7,7 @@ import { OrdersService } from 'src/app/services/orders.service';
   templateUrl: './orders.component.html',
   styleUrls: ['./orders.component.css'],
 })
-export class OrdersComponent {
+export class OrdersComponent implements OnInit {
   userForm!: FormGroup;
   userModel: any;
   orderDetails: any;
