@@ -41,9 +41,4 @@ export class UsersComponent implements OnInit {
       }
     );
   }
-
-  reset() {
-    this.userForm.reset();
-    this.userModel = {};
-  }
 }

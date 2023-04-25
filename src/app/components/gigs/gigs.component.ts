@@ -41,9 +41,4 @@ export class GigsComponent implements OnInit {
       }
     );
   }
-
-  reset() {
-    this.userForm.reset();
-    this.userModel = {};
-  }
 }

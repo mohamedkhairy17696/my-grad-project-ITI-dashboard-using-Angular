@@ -41,9 +41,4 @@ export class OrdersComponent implements OnInit {
       }
     );
   }
-
-  reset() {
-    this.userForm.reset();
-    this.userModel = {};
-  }
 }
