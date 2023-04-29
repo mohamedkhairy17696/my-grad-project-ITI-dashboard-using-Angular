@@ -11,7 +11,6 @@
             <th scope="col" class="px-6 py-3">Title</th>
             <th scope="col" class="px-6 py-3">Category</th>
             <th scope="col" class="px-6 py-3">Average Rate</th>
-            <th scope="col" class="px-6 py-3">Sales</th>
             <th scope="col" class="px-6 py-3">Delivery Time</th>
             <th scope="col" class="px-6 py-3">Created At</th>
             <th scope="col" class="px-6 py-3">Action</th>
@@ -40,7 +39,6 @@
                   gig.totalStars / gig.starNumber
               }}
             </td>
-            <td class="px-6 py-4">{{ gig.sales }}</td>
             <td class="px-6 py-4">{{ gig.deliveryTime }} days</td>
             <td class="px-6 py-4">{{ gig.createdAt | date : "longDate" }}</td>
             <td class="px-6 py-4">
