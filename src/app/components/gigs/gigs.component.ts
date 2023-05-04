@@ -8,8 +8,6 @@ import { GigsService } from 'src/app/services/gigs.service';
   styleUrls: ['./gigs.component.css'],
 })
 export class GigsComponent implements OnInit {
-  userForm!: FormGroup;
-  userModel: any;
   GigDetails: any;
 
   constructor(private api: GigsService, private fb: FormBuilder) {}

@@ -8,8 +8,6 @@ import { UsersService } from 'src/app/services/users.service';
   styleUrls: ['./users.component.css'],
 })
 export class UsersComponent implements OnInit {
-  userForm!: FormGroup;
-  userModel: any;
   userDetails: any;
 
   constructor(private api: UsersService, private fb: FormBuilder) {}
